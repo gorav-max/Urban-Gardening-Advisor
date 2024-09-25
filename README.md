@@ -1,32 +1,43 @@
 # Urban-Gardening-Advisor
 
-Urban-Gardening-Advisor is a chatbot specifically designed to assist users withgardening suggestion-related inquiries. By feeding data about variousgardening suggestions into a large language model (LLM), this chatbot provides insightful information and advice forgardening suggestion care, identification, and maintenance.
+**Provide tips and guidance on how to grow plants, vegetables, or flowers in small spaces like apartments or balconies.**  
+Urban-Gardening-Advisor is a chatbot specifically designed to assist users with gardening-related inquiries. By feeding data about various gardening suggestions into a large language model (LLM), this chatbot provides insightful information and advice for gardening care, plant identification, and maintenance.
 
-Features
-User-friendly interface for answeringgardening suggestion-related questions.
-Comprehensive repository ofgardening suggestion-related information.
-Personalized guidance and recommendations based on user inputs.
-Installation
+## Features
+- **User-friendly interface** for answering gardening-related questions.
+- **Comprehensive repository** of gardening information.
+- **Personalized guidance and recommendations** based on user inputs.
+
+## Installation
 To get started with Urban-Gardening-Advisor, follow these steps:
 
-Clone the repository:
+1. **Clone the repository:**
 
-git clone https://github.com/gorav-max/Urban-Gardening-Advisor.git cd GuideAI
+    ```bash
+    git clone https://github.com/gorav-max/Urban-Gardening-Advisor.git
+    cd Urban-Gardening-Advisor
+    ```
 
-Install the Gaia Node:
+2. **Install the Gaia Node:**
 
-Run the command below:
+    Run the command below:
 
-curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+    ```bash
+    curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+    ```
 
-Update the config.json file to run with a small language model:
+3. **Update the config.json file** to run with a small language model:
 
-gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
+    ```bash
+    gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
+    ```
 
-Start the node:
+4. **Start the node:**
 
-gaianet start
+    ```bash
+    gaianet start
+    ```
 
-How to Use
-Open your web browser and navigate to the generated link.
-Start interacting with the chatbot by typing yourgardening suggestion-related questions.
+## How to Use
+1. Open your web browser and navigate to the generated link.
+2. Start interacting with the chatbot by typing your gardening-related questions.
