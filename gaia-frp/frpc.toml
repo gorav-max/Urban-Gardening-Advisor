@@ -1,0 +1,10 @@
+serverAddr = "us.gaianet.network"
+serverPort = 7000
+metadatas.deviceId = "device-1c6a4cae7fd9e25e531d07d7"
+
+[[proxies]]
+name = "0x91029b5091b5748c0f4592bfd8980e42a3560294.us.gaianet.network"
+type = "http"
+localPort = 8080
+#remotePort = 80
+subdomain = "0x91029b5091b5748c0f4592bfd8980e42a3560294"
